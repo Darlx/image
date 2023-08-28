@@ -82,7 +82,8 @@ Index - Column Name
 ```
 
 **World Map Projection**
-After press enter to move forward, we can choose whether to project specific elements in the world map.
+
+After pressing enter to move forward, we can choose whether to project specific elements in the world map.
 ```
 -*-*- World Map Projection -*-*-
 World Map Projection for A Specific Element Option:
@@ -152,6 +153,7 @@ Save figure 'Map Projection - AL2O3(WT%)' in D:\test\geopi_output\clf\example\ar
 ```
 ![Map Projection - AL2O3(WT%)](https://github.com/Darlx/image/raw/main/img1/Map%20Projection%20-%20AL2O3(WT%25).png)
 <font color=gray size=1><center>Figure 1 Map Projection - AL2O3(WT%)</center></font>
+
 After that，you can make a choice again in the following option:
 ```
 Do you want to continue to project a new element in the World Map?
@@ -163,6 +165,7 @@ If we enter 1, we can make another drawing, and if we enter 2, we can step into 
 
 ## 2. Data processing
 **Data select**
+
 It's not necessary to deal with all the data, so in this part, we can choose the data according to our task. In this example, we choose column 1 as the Y, and column 8-16 as X, so we enter 3; [8, 16] :
 ```
 -*-*- Data Selection -*-*-
@@ -282,6 +285,7 @@ D:\test\geopi_output\clf\example\artifacts\image\statistic.
 Successfully store 'Data Original' in 'Data Original.xlsx' in D:\test\geopi_output\clf\example\artifacts\data.
 ```
 **Deal with missing value**
+
 After choosing the data, we can use some imputation techniques to deal with the missing value, we can see the values information below:
 ```
 -*-*- Imputation -*-*-
@@ -319,6 +323,7 @@ Note: you don't need to deal with the missing values, we'll just pass this step!
 In this example we don't need to deal with the missing value, so just move forward.
 
 **Feature engineering**
+
 Then, you can construct some features with entering 1 here:
 ```
 -*-*- Feature Engineering -*-*-
@@ -470,6 +475,7 @@ Then we can move forward to next mode, we need to choose the mode here to proces
 (Model) ➜ @Number:
 ```
 Before we start the classification model training, we have to specify our X and Y data set. in the example of our selected data set, we take column [2,11] as our X set and column 1 as Y.
+
 **Show you the X data**
 ```
 -*-*- Data Split - X Set and Y Set -*-*-
@@ -539,6 +545,7 @@ Successfully store 'X Without Scaling' in 'X Without Scaling.xlsx' in D:\test\ge
 (Press Enter key to move forward.)
 ```
 **Feature Scaling on X data**
+
 We can also do feature scaling here just by entering 1, and two methods can be applied, we select Min-max Scaling here, so just enter 1:
 ```
 -*-*- Feature Scaling on X Set -*-*-
@@ -582,6 +589,7 @@ Successfully store 'X With Scaling' in 'X With Scaling.xlsx' in D:\test\geopi_ou
 (Press Enter key to move forward.)
 ```
 **Select Y data**
+
 Just enter 1 to choose column 1 as Y:
 ```
 -*-*- Data Split - X Set and Y Set-*-*-
@@ -645,6 +653,7 @@ Successfully store 'Y' in 'Y.xlsx' in D:\test\geopi_output\clf\example\artifacts
 (Press Enter key to move forward.)
 ```
 **Split the data**
+
 Then we have to split our data set in to training data and testing data, we can simply spedcify the spliting ratio in the command line,we set a ratio at 0.2 here, so enter 0.2:
 ```
 -*-*- Data Split - Train Set and Test Set -*-*-
