@@ -751,18 +751,18 @@ Expected Functionality:
 ```
 The program will implement cross validation during the training with k-Folds=10. Finally, the confusion matrix, feature importance diagram, ROC Curve, Precision Recall Curve and Permutation Importance Diagram will be saved under artifacts/image/model_output folder. The classification report, cross validation report and model score report will be saved under metrics folder. In the meantime, trained Xgboost model will be saved under the artifacts/model folder and hyper parameters will be saved under the parameters folder.
 
-![Confusion_Matrix_Xgboost](https://github.com/Darlx/image/blob/main/Confusion%20Matrix%20-%20Xgboost.png)
+![Confusion_Matrix_Xgboost](https://github.com/Darlx/image/raw/main/Confusion%20Matrix%20-%20Xgboost.png)
 <font color=gray size=1><center>Figure 2 Confusion Matrix - Xgboost</center></font>
 
-![ROC_Curve_Xgboost.png](https://github.com/Darlx/image/blob/main/ROC%20Curve%20-%20Xgboost.png)
+![ROC_Curve_Xgboost.png](https://github.com/Darlx/image/raw/main/ROC%20Curve%20-%20Xgboost.png)
 
 <font color=gray size=1><center>Figure 3 Classification - Xgboost - ROC Curve</center></font>
 
-![Precision_Recall_Curve_Xgboost.png](https://github.com/Darlx/image/blob/main/Precision%20Recall%20Curve%20-%20Xgboost.png)
+![Precision_Recall_Curve_Xgboost.png](https://github.com/Darlx/image/raw/main/Precision%20Recall%20Curve%20-%20Xgboost.png)
 <font color=gray size=1><center>Figure 4 Classification - Xgboost - Precision Recall Curve</center></font>
 
-![Permutation_Importance_Xgboost.png](https://github.com/Darlx/image/blob/main/Permutation%20Importance%20-%20Xgboost.png)
+![Permutation_Importance_Xgboost.png](https://github.com/Darlx/image/raw/main/Permutation%20Importance%20-%20Xgboost.png)
 <font color=gray size=1><center>Figure 5 Classification - Xgboost - Permutation Importance</center></font>
 
-![Feature_Importance_Map.png](https://github.com/Darlx/image/blob/main/Feature%20Importance%20-%20Xgboost.png)
+![Feature_Importance_Map.png](https://github.com/Darlx/image/raw/main/Feature%20Importance%20-%20Xgboost.png)
 <font color=gray size=1><center>Figure 6 Classification - Xgboost - Feature Importance</center></font>
